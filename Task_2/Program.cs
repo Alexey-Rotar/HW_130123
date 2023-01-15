@@ -8,9 +8,9 @@ Console.WriteLine("Введите два числа:");
 if ((double.TryParse(Console.ReadLine(), out a)) & (double.TryParse(Console.ReadLine(), out b)))
 {
     if (a>b) 
-        Console.WriteLine("Наибольшее: "+a+"; наименьшее: "+b+".");
+        Console.WriteLine("Большее: "+a+"; Меньшее: "+b+".");
     else if (b>a)
-        Console.WriteLine("Наибольшее: "+b+"; наименьшее: "+a+".");
+        Console.WriteLine("Большее: "+b+"; Меньшее: "+a+".");
     else if (a==b)
         Console.WriteLine("Числа равны.");
 }
